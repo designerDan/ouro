@@ -95,7 +95,29 @@
     </div>
   </header>
   <main>
-    <h2>Synthesis</h2>
+    <h2>Patterns</h2>
+
+    <h3>Challenges</h3>
+    <p>The ne plus ultra</p>
+    <p>The main challenge of AI is how to translate subjective human needs, values, and experiences into algorithmic parameters the model can optimize for. – Nadia Piet</p>
+    <p>https://www.awwwards.com/AI-driven-design
+      Chapter 4, pg 29</p>
+    <p>I surmize the tactical hurdles of achieving that are as follow.</p>
+    
+    <ul>
+      <li>Feedback, a good feedback loop prevents model drift</li>
+      <li>Explainability, pretty much everyone agrees on that</li>
+      <li>Non-determinism, hallucinations, getting it wrong. Yeah but your feedback loops are how you mitigate this so those are really the challenges.</li>
+      <li>Keeping the user in control</li>
+      <li>Ethics, which comes down to harm, inclusion, and bias.</li>
+      <li>Data</li>
+      <li>Accountability, Buildin in systems to hold the creators accountable and at large being willing to accept the consequences of supporting the AI industry.</li>
+      <li>Dehumanizing the AI</li>
+      <li>Speed, cost, and quality constraints.</li>
+      <li>Relevance or how well the AI suits its users, their contexts, cultures, values, and capacities.</li>
+
+    </ul>
+
 
     <h3>Affordances</h3>
     <p>Image enhancment: taking crappy client photos and training a model to turn out amazing photos, for like brochures and whatnots, being scrappy and independent</p>
@@ -213,6 +235,382 @@
     </section>
 
     <h2>Analysis</h2>
+    <h3>Expert witness</h3>
+    <p>I sourced these links from various Google searches, LinkedIn posts, and conversation drops. My key search terms were 'UX' and 'AI.' While I do not consider these links exhaustive I do consider them representative. Read enough of the literature and you'll see the commonality.</p>
+    <section>
+      <li>
+        <h3><a href="https://www.microsoft.com/en-us/haxtoolkit/library/?content_type%5B1%5D=example">https://www.microsoft.com/en-us/haxtoolkit/library/?content_type%5B1%5D=example</a></h3>
+        <h4>Challenges</h4>
+        <p>Keeping the data human-centered.</p>
+        <p>Managing expectations.</p>
+        <p>Responsible<p>
+        <p>Context</p>
+        <p>Society</p>
+        <p>Efficiency</p>
+        <p>Explainability</p>
+        <p>Consequence</p>
+        <p>Change</p>
+        <p>Control</p>
+        <h4>Heuristics</h4>
+        <p>The data for the model needs to be the data of the people using the model.</p>
+        <p>'You have stated your intent is this. With relative confidence this path with yield success. Do you want to act?'</p>
+        <p>Culture isn't static therefore the research cannot be static.</p>
+        <h5>Supplement</h5>
+        <a href="https://www.microsoft.com/en-us/research/uploads/prod/2019/01/Guidelines-for-Human-AI-Interaction-camera-ready.pdf">https://www.microsoft.com/en-us/research/uploads/prod/2019/01/Guidelines-for-Human-AI-Interaction-camera-ready.pdf</a>
+        <a hre="https://erichorvitz.com/chi99horvitz.pdf">https://erichorvitz.com/chi99horvitz.pdf</a>
+        <a hrer="https://www.microsoft.com/en-us/haxtoolkit/ai-guidelines/">https://www.microsoft.com/en-us/haxtoolkit/ai-guidelines/</a>
+      </li>
+
+      <li>
+        <h3><a href="https://www.ibm.com/design/ai/"></a>https://www.ibm.com/design/ai/</h3>
+        <h4>Challenges</h4>
+        <p>Accountability is on everyone for considering the AI's impact in the world. You must know the policies governing your AI.</p>
+        <p>Align your AI with the norms and values of your audience. I add culture. Your AI learns and needs to align on the values as well.</p>
+        <p>Explainability is providing detail from the AI about its decision process.</p>
+        <p>Fairness means ongoing research and data collection which is representative of a diverse population.</p>
+        <p>User Data Rights is radical transparency into what data, when, how and how to turn it off.</p>
+        <h4>Heuristics</h4>
+        <p>Imperceptible AI is not ethical AI.</p>
+        <p>Establish a fully-realized AI profile shared between the system and user</p>
+        <p>Deliver multi-step context-aware interactions.</p>
+        <p>Display provable authenticity of the system's interactions.</p>
+        <p>Establish the system's tone, personality, and presence.</p>
+      </li>
+
+      <li>
+        <h3><a href="https://design.google/library/ux-ai"></a>https://design.google/library/ux-ai</h3>
+        <h4>Challenges</h4>
+        <p>Communicating the user's role in working with the AI.</p>
+        <p>Training the model to fit the user need.</p>
+        <h4>Heuristics</h4>
+        <p>If a human can't perform the task neither can an AI.</p>
+        <p>A deep dive into the methods of an expert separates signal from noise and guides you with data collection, labeling, and component modeling.</p>
+        <p>Fake it with real content over an ML model as the latter is way more costly than the former to get wrong.</p>
+      </li>
+
+      <li>
+        <h3><a href="https://uxofai.com/"></a>https://uxofai.com/</h3>
+        <h4>Challenges</h4>
+        <p>Personalized AI can become an echo chamber if not planned for.</p>
+        <p>Know when to bring the human in the loop.</p>
+        <p>Keeping the AI personality in check.</p>
+        <h4>Heuristics</h4>
+        <p>Prototype with real data and fake AI.</p>
+        <p>Communicate confidence with multiple options ordered by rank.</p>
+        <p>Don't collect what you don't need, use on-device ML instead.</p>
+      </li>
+
+      <li>
+        <h3><a href="https://medium.com/@refiredesign/ai-design-principles-ux-guide-0e8b285f2b1a"></a>https://medium.com/@refiredesign/ai-design-principles-ux-guide-0e8b285f2b1a</h3>
+        <h4>Challenges</h4>
+        <p>Make sure the AI does not perpetuate existing biases.</p>
+        <p>Keeping the AI context relevant.</p>
+        <p>Communicating to the user how AI will use their data.</p>
+        <h4>Heuristics</h4>
+        <p>Use user input to improve AI over time via feedback loops like answer ratings or Roman voting.</p>
+        <p>Give the human the ability to override the AI's decisions at any point.</p>
+        <p>Make your privacy policies accessible.</p>
+      </li>
+
+      <li>
+        <h3><a href="https://www.youtube.com/watch?v=TPmtiglPnEY"></a>https://www.youtube.com/watch?v=TPmtiglPnEY</h3>
+        <h4>Challenges</h4>
+        <p>Aligning the AI with a real user need.</p>
+        <p>Establishing credibility with the AI responses.</p>
+        <p>Indicating the AI.</p>
+        <h4>Heuristics</h4>
+        <p>You need to show your references, cite your sources.</p>
+        <p>You can generate buttons based on the most common prompts.</p>
+      </li>
+
+      <li>
+        <h3><a href="https://www.linkedin.com/learning/ux-for-ai-design-practices-for-ai-developers"></a>https://www.linkedin.com/learning/ux-for-ai-design-practices-for-ai-developers</h3>
+        <h4>Challenges</h4>
+        <p>Dealing with non-determinism.</p>
+        <p>Working with a collaborative medium is different that working with a traditional commanding medium.</p>
+        <p>Dehumanizing the AI</p>
+        <p>Speed, cost, and quality</p>
+        <h4>Heuristics</h4>
+        <p>This leads to the UX patterns of 'hey, this thing is an AI', 'here are some suggested actions', and 'give us your feedback.'</p>
+        <p>Give AI status updates</p>
+        <p>Remove friction</p>
+        <p>Adding friction is key to the new UX.</p>
+        <p>Don't humanize the AI so emotions are mitigated when the AI lets you down.</p>
+        <p>Give more citation</p>
+      </li>
+
+      <li>
+        <h3><a href="https://adamfard.com/blog/ai-ux-design"></a>https://adamfard.com/blog/ai-ux-design</h3>
+        <h4>Challenges</h4>
+        <p>Trust</p>
+        <p>Communicating the AI's capabilities</p>
+        <p>Keeping the AI appropriate to the users</p>
+        <p>Creating an AI that is ethical</p>
+        <h4>Heuristics</h4>
+        <p>Keep the user in command.</p>
+      </li>
+
+      <li>
+        <h3><a href="https://www.linkedin.com/events/whatdesignersneedtoknowaboutaiw7163223170869628929/theater/"></a>https://www.linkedin.com/events/whatdesignersneedtoknowaboutaiw7163223170869628929/theater/</h3>
+        <h4>Challenges</h4>
+        <p>All of AI is new territory. Nobody knows the patterns.</p>
+        <h4>Heuristics</h4>
+        <p>Have multiple explorations at different altitudes and with differet success ratings.</p>
+      </li>
+
+      <li>
+        <h3><a href="https://www.youtube.com/watch?v=5HgkawZdihU">https://www.youtube.com/watch?v=5HgkawZdihU</a></h3>
+        <p>No relevant challenges or heuristics were addressed.</p>
+      </li>
+
+      <li>
+        <h3><a href="https://www.shapeof.ai/">https://www.shapeof.ai/</a></h3>
+        <h4>Challenges</h4>
+        <p>Distinguishing the AI, separating it out.</p>
+        <p>Naming the AI.</p>
+        <p>Using the AI to get to where you're going.</p>
+        <p>Making the AI beneficial to the audience.</p>
+        <p>Tuning the model.</p>
+        <p>Trust</p>
+        <h4>Heuristics</h4>
+        <p>Dress the AI up, visual distinction creates separation.</p>
+        <p>Have madlibs, templates, and nudges.</p>
+        <p>Allow for parameters, sliders, widgets.</p>
+        <p>Using edge cases as special input into your feedback cycle is a pro level play.</p>
+        <p>Prove the model gets better at what does works and where necessary good at what doesn't work.</p>
+      </li>
+
+      <li>
+        <h3><a href="https://smarterpatterns.com/">https://smarterpatterns.com/</a></h3>
+        <h4>Challenges</h4>
+        <p>Transparency & Trust</p>
+        <p>Autonomy & Control</p>
+        <p>Fairness & Inclusivness</p>
+        <h4>Heuristics</h4>
+        <p>The whole site is a heuristics bank. Listing them would be recreating the site.</p>
+      </li>
+
+      <li>
+        <h3><a href="https://aixdesign.co/toolkit">https://aixdesign.co/toolkit</a></h3>
+        <h4>Challenges</h4>
+        <p>Trust & Transparency</p>
+        <p>Autonomy & Control</p>
+        <p>Value alignment</p>
+        <h4>Heuristics</h4>
+        <p>Difficult to say as they aren't expressely called out and I don't have access to the fine print of the docs.</p>
+      </li>
+
+      <li>
+        <h3><a href="https://pair.withgoogle.com/guidebook/">https://pair.withgoogle.com/guidebook/</a></h3>
+        <h4>Challenges</h4>
+        <p>Support for failure by focusing on error handling.</p>
+        <p>Data ethics, governance, and other similar matters.</p>
+        <p>Balancing automation with control.</p>
+        <p>Keeping the user in control.</p>
+        <p>Feedback</p>
+        <p>Trust</p>
+        <p>Handling the dataset responsibly.</p>
+        <p>Explaining the system.</p>
+        <p>Onboarding</p>
+        <p>Getting started</p>
+        <p></p>
+        <h4>Heuristics</h4>
+        <p>Allow users to provide guidance, correct data, and offer feedback to improve the system's performance.</p>
+        <p>Enable users to give feedback on unmet needs and correct the system through user input.</p>
+        <p>Communicate system functionality clearly, explain its workings, and check user input against expected answers.</p>
+        <p>Implement AI in ways that maintain user engagement, avoid habituation, and allow user control over interactions.</p>
+        <p>Explain how the system matches inputs to outputs, allow user corrections through feedback, and provide alternative paths when certain results cannot be given.</p>
+        <p>Clearly state limitations, reasons for inferences, and communicate product capabilities early on.</p>
+        <p>Allow users to set independent controls for AI systems, determine priority among multiple connected systems, and avoid creating new context errors.</p>
+        <p>Engage users, provide familiar appearance for initial trust, and progressively increase automation under user guidance.</p>
+        <p>Contextualize recommendations with third-party sources, explicitly state shared data, make it easy to try the product first, and leverage in-product moments for AI system explanations.</p>
+        <p>Clearly communicate permissions, settings, recovery plans in case of errors, and provide a way forward based on the severity of possible outcomes.</p>
+        <p>Show output alongside training data for transparency and offer clear communication about permissions throughout the user experience.</p>
+        <p>Directly examine your raw data.</p>
+        <p>A precision x recall matrix can help prioritize AI features and design.</p>
+      </li>
+
+      <li>
+        <h3><a href="https://miro.com/miroverse/ai-design-toolkit/">https://miro.com/miroverse/ai-design-toolkit/</a></h3>
+        <h4>Challenges</h4>
+        <p>Bias</p>
+        <h4>Heuristics</h4>
+        <p>Make sure life after your ML is better than life before it.</p>
+      </li>
+
+      <li>
+        <h3><a href="https://futurice.com/ia-design-kit">https://futurice.com/ia-design-kit</a></h3>
+        <p>A site of beneficial use cases but no challenges or heuristics.</p>
+      </li>
+
+      <li>
+        <h3><a href="https://www.microsoft.com/en-us/ai/responsible-ai">https://www.microsoft.com/en-us/ai/responsible-ai</a></h3>
+        <p>Interesting but of questionable relevance given the HAX.</p>
+      </li>
+
+      <li>
+        <h3><a href="https://www.pwc.com/gx/en/issues/data-and-analytics/artificial-intelligence/what-is-responsible-ai.html">https://www.pwc.com/gx/en/issues/data-and-analytics/artificial-intelligence/what-is-responsible-ai.html</a></h3>
+        <h4>Challenges</h4>
+        <p>Data</p>
+        <p>Ethics</p>
+        <p>Policy</p>
+        <p>Regulation</p>
+        <p>Bias</p>
+        <p>Fairness</p>
+        <p>Explainability</p>
+        <p>Privacy</p>
+        <p>Robustness</p>
+        <p>Security</p>
+        <p>Safety</p>
+        <p>Governance</p>
+        <p>Compliance</p>
+        <p>Risk management</p>
+        <h4>Heuristics</h4>
+        <p>Call PwC</p>
+      </li>
+
+      <li>
+        <h3><a href="https://designhumandata.net/">https://designhumandata.net/</a></h3>
+        <h4>Challenges</h4>
+        <p>Data privacy</p>
+        <h4>Heuristics</h4>
+        <p>The site is a deep dive into data formulation heuristics.</p>
+      </li>
+
+      <li>
+        <h3><a href="https://www3.weforum.org/docs/WEF_Artificial_Intelligence_for_Children_2022.pdf">https://www3.weforum.org/docs/WEF_Artificial_Intelligence_for_Children_2022.pdf</a></h3>
+        <h4>Challenges</h4>
+        <p>Ethics, bias, and liability</p>
+        <p>A11y, neuro-divergences</p>
+        <p>Audience appropriate</p>
+        <p>Does not promote bullying or addiction</p>
+        <p>Is explainable.</p>
+        <h4>Heuristics</h4>
+        <p>None identified.</p>
+      </li>
+
+      <li>
+        <h3><a href="https://www.awwwards.com/AI-driven-design">https://www.awwwards.com/AI-driven-design</a></h3>
+        <h4>Challenges</h4>
+        <p>Trust & Transparency</p>
+        <p>User Autonomy & Control</p>
+        <p>Value alignment</p>
+        <p>Ethics</p>
+        <h4>Heuristics</h4>
+        <p>Present a confidence rating for your AI responses.</p>
+        <p>Give sources and citations.</p>
+        <p>Provide recommendations driven by humans.</p>
+        <p>Build in a feedback loop.</p>
+        <p>Design for failure.</p>
+      </li>
+
+      <li>
+        <h3><a href="https://uxdesign.cc/artificial-intelligence-in-ux-design-54ad4aa28762">https://uxdesign.cc/artificial-intelligence-in-ux-design-54ad4aa28762</a></h3>
+        <h4>Challenges</h4>
+        <p>Finding where AI adds human, real person value.</p>
+        <h4>Heuristics</h4>
+        <p>Put the human first.</p>
+        <p>Design for trust & transparency.</p>
+        <p>Make the AI explainable.</p>
+        <p>Allow the user to provide feedback and control.</p>
+        <p>Everyone who works on AI is accountable for it.</p>
+      </li>
+
+      <li>
+        <h3><a href="https://www.ericsson.com/en/ai/ux-design-in-ai">https://www.ericsson.com/en/ai/ux-design-in-ai</a></h3>
+        <h4>Challenges</h4>
+        <p>Trust</p>
+        <h4>Heuristics</h4>
+        <p>Make sure the AI solves an actual need.</p>
+        <p>Make the AI explainable.</p>
+        <p>Show evidence the AI is learning.</p>
+        <p>Give a way to trial an AI.</p>
+        <p>Keep the user in control.</p>
+        <p>Make the system adapt to explicit and implicit feedback.</p>
+        <p>Set appropriate expectations.</p>
+        <p>Be transparent with data storage, collection, and handling.</p>
+        <p>Give the AI an appeal to be understandable</p>
+      </li>
+
+      <li>
+        <h3><a href="https://www.oreilly.com/radar/machine-learning-for-designers/">https://www.oreilly.com/radar/machine-learning-for-designers/</a></h3>
+        <h4>Challenges</h4>
+        <p>Indicating what the AI can do.</p>
+        <p>Interactions given the unreliable nature of non-determinism.</p>
+        <p>Faulty assumptions like labeling Black people Gorillas.</p>
+        <p>Poor data</p>
+        <h4>Heuristics</h4>
+        <p>Design systems that respond to a user's request and enriches the user's understanding of the domain itself.</p>
+        <p>Give a small example for the user to complete using AI, like a playground.</p>
+        <p>Indicate the kind of information you need and what you'll do with it.</p>
+        <p>Suggestions or a 20Q like interface to come up with what you want.</p>
+        <p>Provide confidence scores alongside speculations</p>
+        <p>Have non-ML, maybe human, and possibly code based check on data inputs and ML outputs, to stop the Tay bot and its racist remarks.</p>
+        <p>Have the system explicitly restate the task.</p>
+        <p>Provide fallback mechanisms.</p>
+        <p>Small releases to red teams.</p>
+        <p>Use confidence scores to assess the validity of included features.</p>
+        <p>Show the risks of an AI feature.</p>
+      </li>
+
+      <li>
+        <h3><a href=""></a></h3>
+        <h4>Challenges</h4>
+        <p></p>
+        <h4>Heuristics</h4>
+        <p></p>
+      </li>
+
+      <li>
+        <h3><a href=""></a></h3>
+        <h4>Challenges</h4>
+        <p></p>
+        <h4>Heuristics</h4>
+        <p></p>
+      </li>
+
+      <li>
+        <h3><a href=""></a></h3>
+        <h4>Challenges</h4>
+        <p></p>
+        <h4>Heuristics</h4>
+        <p></p>
+      </li>
+
+      <li>
+        <h3><a href=""></a></h3>
+        <h4>Challenges</h4>
+        <p></p>
+        <h4>Heuristics</h4>
+        <p></p>
+      </li>
+
+    </section>
+
+
+https://adamfard.com/blog/ai-ux-design
+https://www.linkedin.com/events/whatdesignersneedtoknowaboutaiw7163223170869628929/theater/
+https://www.youtube.com/watch?v=5HgkawZdihU
+https://www.shapeof.ai/
+https://smarterpatterns.com/
+https://aixdesign.co/toolkit
+https://pair.withgoogle.com/guidebook/
+https://miro.com/miroverse/ai-design-toolkit/
+https://futurice.com/ia-design-kit
+https://www.microsoft.com/en-us/ai/responsible-ai
+https://www.pwc.com/gx/en/issues/data-and-analytics/artificial-intelligence/what-is-responsible-ai.html
+https://designhumandata.net/
+https://www.ibm.com/watson/assets/duo/pdf/everydayethics.pdf
+https://www3.weforum.org/docs/WEF_Artificial_Intelligence_for_Children_2022.pdf
+https://futureoflife.org/open-letter/ai-principles/
+https://www.awwwards.com/AI-driven-design
+https://uxdesign.cc/artificial-intelligence-in-ux-design-54ad4aa28762
+https://aidesign.tools
+https://www.ericsson.com/en/ai/ux-design-in-ai
+https://www.oreilly.com/radar/machine-learning-for-designers/
+https://youtu.be/LlcFkDFYFkk
+
+    <h3>Software</h3>
     <p>I am operating under the belief that 25 examples, including the 4 most common ones, achieves statistical significance given the sample size of available AI image generation softwares, of which 'There's an AI for That' returns 482 results. I have no clue what the market size is in totum.</p>
 
     <a href="https://theresanaiforthat.com/image-generation/?ref=suggest">Last checked 2/22/2024</a>
