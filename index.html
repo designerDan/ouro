@@ -45,6 +45,11 @@
     <h1>Insights</h1>
     <div class="flex">
       <div class="item">
+        <p>Suggestions are a low-level and high-value input for AI.</p>
+        <p></p>
+        <p>The nature of AI is predictive, statistical, and non-deterministic. AI tries to know where you are going and give you the way to get there.</p>
+        <p>AI might only be right 80% of the time. A human might be right only 60% of the time.</p>
+        <p>Provenance is a key issue for AI image generators.</p>
         <p>There's an opportunity to focus less on image generation and more on image interpretation. My video feed of a pen dancing becomes an epic struggle between up and down to win the direction of hope.</p>
         <p>There might be a market for chatGPT to webXR for disaster preparedness training, corporations have risk mitigation departments, or for ER training. Like, 'I'm looking to create a training for earthquake preparedness.' Eleven labs would feed the speech.</p>
         <p>'Create stunning visual content with minimal effort' sums up the affordances for these softwares.</p>
@@ -100,26 +105,73 @@
   <main>
     <h2>Patterns</h2>
 
+    <h3>Heuristics</h3>
+    <p>These constitute the pillar heuristics when you're seeking to address the six stated challenges.</p>
+    <ul>
+      <li>This leads to the UX patterns of 'hey, this thing is an AI', 'here are some suggested actions', and 'give us your feedback.'</li>
+      <li>Find a way to attach licenses of use or other provenance data to your images both training and generated but especially your training data.</li>
+      <li>Culture isn't static therefore the research cannot be static.</li>
+      <li>If a human can't perform the task neither can an AI.</li>
+      <li>Make waiting fun is a core UX for AI principle.</li>
+      <li>Allow people to turn the AI off.</li>
+    </ul>
+
+    <h4>An expanded list of Heuristics arranged by challenge</h4>
+
+    <h5>Challenge: indicating what the AI can do.</h5>
+    <ul>
+      <li>You can generate buttons based on the most common prompts.</li>
+      <li>You seem to do this a lot. - This is the ML part, the predictive part. Would you like to automate it?</li>
+      <li>This leads to the UX patterns of 'hey, this thing is an AI', 'here are some suggested actions', and 'give us your feedback.'</li>
+    </ul>
+
+    <h5>Challenge: installing routines for ownership, provenance, and authenticity of training data.</h5>
+    <ul>
+      <li>You need to show your references, cie your sources.</li>
+      <li>Don't collect what you don't need, use on-device ML instead.</li>
+      <li>Find a way to attach licenses of use or other provenance data to your images both training and generated but especially your training data.</li>
+    </ul>
+
+    <h5>Challenge: designing interactions for non-deterministic outcomes.</h5>
+    <ul>
+      <li>Text prompts are not a good UI tool.</li>
+      <li>"Clearly communicate permissions, settings, recovery plans in case of errors, and provide a way forward based on the severity of possible outcomes."</li>
+    </ul>
+
+    <h5>Challenge: providing feedback loops to improve the AI.</h5>
+    <ul>
+      <li>Culture isn't static therefore the research cannot be static.</li>
+      <li>Design for the labelers</li>
+      <li>Use user input to improve AI over time via feedback loops like answer ratings or Roman voting.</li>
+    </ul>
+
+    <h5>Challenge: managing user expectations about what the AI can do.</h5>
+    <ul>
+      <li>If a human can't perform the task neither can an AI.</li>
+      <li>Communicate confidence with multiple options ordered by rank.</li>
+      <li>Make waiting fun is a core UX for AI principle.</li>
+    </ul>
+
+    <h5>Challenge: keeping the user in control.</h5>
+    <ul>
+      <li>Allow people to turn the AI off.</li>
+      <li>Give the human the ability to override the AI's decisions at any point.</li>
+      <li>AI "here's what I'm going to do, are you good with this?"</li>
+    </ul>
+
     <h3>Challenges</h3>
     <p>The ne plus ultra</p>
-    <p>The main challenge of AI is how to translate subjective human needs, values, and experiences into algorithmic parameters the model can optimize for. – Nadia Piet</p>
+    <p>The main challenge of AI is how to translate subjective human needs, values, and experiences into algorithmic parameters the model can optimize for. &ndash; Nadia Piet</p>
     <p>https://www.awwwards.com/AI-driven-design
       Chapter 4, pg 29</p>
-    <p>I surmize the tactical hurdles of achieving that are as follow.</p>
-    
+    <p>I surmize the hurdles to achieve that goal relevant to UX are as follow.</p>
     <ul>
-      <li>Feedback, a good feedback loop prevents model drift</li>
-      <li>Explainability, pretty much everyone agrees on that</li>
-      <li>Non-determinism, hallucinations, getting it wrong. Yeah but your feedback loops are how you mitigate this so those are really the challenges.</li>
+      <li>Indicating what the AI can do<li>
+      <li>Installing ownership, provenance, and authenticity of training data routines</li>
+      <li>Designing interactions for non-deterministic outcomes</li>
+      <li>Providing feedback loops to improve the AI</li>
+      <li>Managing user expectations about what the AI can do</li>
       <li>Keeping the user in control</li>
-      <li>Ethics, which comes down to harm, inclusion, and bias.</li>
-      <li>Data</li>
-      <li>Accountability, Buildin in systems to hold the creators accountable and at large being willing to accept the consequences of supporting the AI industry.</li>
-      <li>Dehumanizing the AI</li>
-      <li>Speed, cost, and quality constraints.</li>
-      <li>Relevance or how well the AI suits its users, their contexts, cultures, values, and capacities.</li>
-      <li>Comprehension</li>
-      <li>Implementation</li>
     </ul>
 
     <h3>Affordances</h3>
@@ -240,6 +292,7 @@
     <h2>Analysis</h2>
     <h3>Expert witness</h3>
     <p>I sourced these links from various Google searches, LinkedIn posts, and conversation drops. My key search terms were 'UX' and 'AI.' While I do not consider these links exhaustive I do consider them representative. Read enough of the literature and you'll see the commonality.</p>
+
     <section class="flex">
       <li class="item">
         <h3><a href="https://www.microsoft.com/en-us/haxtoolkit/library/?content_type%5B1%5D=example">https://www.microsoft.com/en-us/haxtoolkit/library/?content_type%5B1%5D=example</a></h3>
@@ -259,9 +312,9 @@
         <p>'You have stated your intent is this. With relative confidence this path with yield success. Do you want to act?'</p>
         <p>Culture isn't static therefore the research cannot be static.</p>
         <h5>Supplement</h5>
-        <a href="https://www.microsoft.com/en-us/research/uploads/prod/2019/01/Guidelines-for-Human-AI-Interaction-camera-ready.pdf">https://www.microsoft.com/en-us/research/uploads/prod/2019/01/Guidelines-for-Human-AI-Interaction-camera-ready.pdf</a>
-        <a hre="https://erichorvitz.com/chi99horvitz.pdf">https://erichorvitz.com/chi99horvitz.pdf</a>
-        <a hrer="https://www.microsoft.com/en-us/haxtoolkit/ai-guidelines/">https://www.microsoft.com/en-us/haxtoolkit/ai-guidelines/</a>
+        <p><a href="https://www.microsoft.com/en-us/research/uploads/prod/2019/01/Guidelines-for-Human-AI-Interaction-camera-ready.pdf">https://www.microsoft.com/en-us/research/uploads/prod/2019/01/Guidelines-for-Human-AI-Interaction-camera-ready.pdf</a></p>
+        <p><a href="https://erichorvitz.com/chi99horvitz.pdf">https://erichorvitz.com/chi99horvitz.pdf</a></p>
+        <p><a href="https://www.microsoft.com/en-us/haxtoolkit/ai-guidelines/">https://www.microsoft.com/en-us/haxtoolkit/ai-guidelines/</a></p>
       </li>
 
       <li class="item">
@@ -562,12 +615,12 @@
         <p>User's understanding what the AI does</p>
         <p>Explaining the AI</p>
         <h4>Heuristics</h4>
-        <p>Don't let users change input values while the AI is working.</p>
+        
+      </li>
+<p>Don't let users change input values while the AI is working.</p>
         <p>Provide a cancel or a way out</p>
         <p>Give a starting point for prompts</p>
         <p>Present the most likely actions and allow for exposing more.</p>
-      </li>
-
     </section>
 
     <h3>Software</h3>
